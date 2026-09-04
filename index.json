@@ -1,0 +1,57 @@
+{
+  "schema": "awesome-lab-sites/v1",
+  "name": "awesome-lab-sites",
+  "description": "Uni-Lab-OS 前端站点索引：微后端导航页与 OpenLab 在浏览器里直接读取这里，列出可连接微后端的前端站点（通用 / 学科主题 / 社区分发）。",
+  "homepage": "https://github.com/Xuwznln/awesome-lab-sites",
+  "updated_at": "2026-09-04",
+  "sites": [
+    {
+      "id": "openlab",
+      "name": "OpenLab",
+      "url": "https://xuwznln.github.io/OpenLab-site/",
+      "description": "通用实验前端：设备接入、流程编排、运行监控、物料追踪与驱动包安装。首次进入落在「通用」主题。",
+      "homepage": "https://github.com/Xuwznln/OpenLab-site",
+      "theme": "general",
+      "protocol": "runtime.v1",
+      "tags": ["general", "workflow", "materials", "driver-packages"],
+      "official": true,
+      "maintainers": ["Xuwznln"]
+    },
+    {
+      "id": "openlab-organic",
+      "name": "OpenLab · 有机合成",
+      "url": "https://xuwznln.github.io/OpenLab-site/?theme=organic",
+      "description": "同一 OpenLab 站点，以「有机合成」主题进入：反应平台、试剂核算、分子与配方工具。",
+      "homepage": "https://github.com/Xuwznln/OpenLab-site",
+      "theme": "organic",
+      "protocol": "runtime.v1",
+      "tags": ["organic", "chemistry"],
+      "official": true,
+      "maintainers": ["Xuwznln"]
+    },
+    {
+      "id": "openlab-biology",
+      "name": "OpenLab · 生物实验",
+      "url": "https://xuwznln.github.io/OpenLab-site/?theme=biology",
+      "description": "同一 OpenLab 站点，以「生物实验」主题进入：样本与试剂、培养排程、序列与 PCR 工具。",
+      "homepage": "https://github.com/Xuwznln/OpenLab-site",
+      "theme": "biology",
+      "protocol": "runtime.v1",
+      "tags": ["biology", "life-science"],
+      "official": true,
+      "maintainers": ["Xuwznln"]
+    },
+    {
+      "id": "openlab-materials",
+      "name": "OpenLab · 材料研发",
+      "url": "https://xuwznln.github.io/OpenLab-site/?theme=materials",
+      "description": "同一 OpenLab 站点，以「材料研发」主题进入：原料与样品、炉程排程、CIF 晶体结构预览。",
+      "homepage": "https://github.com/Xuwznln/OpenLab-site",
+      "theme": "materials",
+      "protocol": "runtime.v1",
+      "tags": ["materials", "crystal"],
+      "official": true,
+      "maintainers": ["Xuwznln"]
+    }
+  ]
+}
